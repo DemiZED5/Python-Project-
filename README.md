@@ -1,4 +1,6 @@
 # Python-Project-
+Lai palaistu projektu, ir nepieciešams izveidot failu .env ar RTU_LOGIN=jūsu lietotājvārds un RTU_PASSWORD= jūsu parole
+
 Šis projekts izstrādāts ar mērķi automatizēt mācību procesu. Galvenais uzdevums — izveidot rīku, kas automātiski iegūst informāciju par uzdevumiem no sistēmas e-studijas.rtu.lv, analizē datus, nosaka tuvākos termiņus un nosūta atgādinājumus.
 Projekta izstrādes laikā tiek izmantotas tādas bibliotēkas kā: Selenium, BeautifulSoup, Plyer, python-dotenv, datetime.
 Selenium tiek izmantots pārlūkprogrammas vadībai – lai atvērtu Google Chrome, ievadītu lietotājvārdu un paroli, piespiestu pogu datu apstiprināšanai un iegūtu informāciju no kalendāra ar uzdevumiem.
