@@ -172,3 +172,20 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Environment files
+.env
+*.env
+.env*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Selenium/Chrome
+chromedriver.log
+chromedriver.exe
+
+# Logs
+*.log
