@@ -1,0 +1,11 @@
+{
+    "name": "RTU Reminder",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": ["-e", "DISPLAY=:99"],
+    "containerEnv": {
+        "DISPLAY": ":99"
+    },
+    "postCreateCommand": "Xvfb :99 -screen 0 1024x768x24 &"
+}
